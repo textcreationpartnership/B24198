@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The history of Doctor John Faustus compiled in verse, very pleasant and delightfull.</title>
+         </titleStmt>
+         <extent>Approx. 32KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B24198</idno><idno type="EEBO-CITATION">99828703</idno>
+  <idno type="VID">206949</idno>
+  <idno type="EEBO-PROQUEST">2248496862</idno>
+  
+            <idno type="STC">Wing H2117</idno>
+            <idno type="PROQUEST">99828703</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-99828703e"/>
+            <note>(EEBO-TCP ; phase 2, no. B24198)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 206949)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1868:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The history of Doctor John Faustus compiled in verse, very pleasant and delightfull.</title>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by E. Cotes, and are to be sold by Charles Tyus at the Three Bibles on London-Bridge,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1664.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: A B⁴.</note>
+                  <note>With a title page woodcut.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="personal_name">Faust, d. ca. 1540 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-04 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-07 </date>
+            <label>Alexis (Ali) Jakobson </label>Sampled and proofread </change>
+         <change>
+            <date>2014-07 </date>
+            <label>Alexis (Ali) Jakobson</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:206949:1"/>
+            <p>THE HISTORY OF Doctor <hi>JOHN FAƲSTƲS;</hi> Compiled in Verse, very pleasant and Delightfull.</p>
+            <figure/>
+            <p>
+               <hi>London,</hi> Printed by <hi>E. Cotes,</hi> and are to be sold by <hi>Charles Tyus</hi> at the <hi>Three Bibles</hi> on <hi>London-Bridge,</hi> 1664.</p>
+            <pb facs="tcp:206949:2"/>
+            <pb facs="tcp:206949:2"/>
+            <pb facs="tcp:206949:3"/>
+            <pb facs="tcp:206949:4"/>
+            <pb facs="tcp:206949:4"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:206949:5"/>
+            <head>To the Reader.</head>
+            <lg>
+               <l>READER, I would not have you think,</l>
+               <l>That I intend to waste my ink,</l>
+               <l>While <hi>Faustus</hi> Story I reherse,</l>
+               <l>And here do write his life in verse,</l>
+               <l>For seeing Fryer <hi>Bacons</hi> Story,</l>
+               <l>(In whom <hi>Oxford</hi> still may glory)</l>
+               <l>For want of better pen comes forth,</l>
+               <l>Compos'd in Rymes of no great worth:</l>
+               <l>I call'd my Muse to task, and pend</l>
+               <l>
+                  <hi>Faustus</hi> life. and death; and end.</l>
+               <l>And when it cometh forth in print,</l>
+               <l>If you like it not, the Devil's in't.</l>
+            </lg>
+            <p>
+               <table>
+                  <row>
+                     <cell>Veni</cell>
+                     <cell>
+                        <hi>Come</hi>
+                     </cell>
+                     <cell>Doctor</cell>
+                  </row>
+                  <row>
+                     <cell>Vide</cell>
+                     <cell>
+                        <hi>See</hi>
+                     </cell>
+                     <cell>Faustus</cell>
+                  </row>
+                  <row>
+                     <cell>Fuge.</cell>
+                     <cell>
+                        <hi>and hate,</hi>
+                     </cell>
+                     <cell>wretched State.</cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="chapter">
+            <pb facs="tcp:206949:5"/>
+            <head>CHAP. I.</head>
+            <argument>
+               <l>Of Doctor <hi>Faustus</hi> birth,</l>
+               <l>And how he gave his heart</l>
+               <l>To leave off fair D<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>vinity,</l>
+               <l>To study the black Art.</l>
+            </argument>
+            <l>MY Muse assist me now, for I intend</l>
+            <l>To write the life &amp; death, and fearful end</l>
+            <l>Of Doctor <hi>Faustus,</hi> whose ill gotten name</l>
+            <l>May well compare with Fryer <hi>Bacon's</hi> Fame.</l>
+            <l>
+               <hi>Faustus</hi> was born at <hi>Rhodes,</hi> which town doth lye</l>
+            <l>Within a Province of fair <hi>Germany;</hi>
+            </l>
+            <l>His Father was a Husbandman, did live</l>
+            <l>On what the earth to him did freely give:</l>
+            <l>Yet he at <hi>Wittenberg</hi> an unkle had,</l>
+            <l>Who took young <hi>Faustus</hi> being but a Lad,</l>
+            <l>And sent him to the Vniversity,</l>
+            <l>That he might study there Divinity.</l>
+            <l>But he did quickly there addict his heart,</l>
+            <l>To leave fair studies for the foul black Art.</l>
+            <l>Thus he in secret studied conjuration,</l>
+            <l>Yet being found by acts and disputation,</l>
+            <l>To be well learned, they did all agree,</l>
+            <l>To make him Doctor of Divinity.</l>
+            <l>But having once obtain'd that high degree,</l>
+            <l>He ill deserved it, as you shall see.</l>
+            <pb facs="tcp:206949:6"/>
+            <l>For now my pen doth tremble for to tell,</l>
+            <l>How like a Devil from all grace he fell.</l>
+            <l>For now his contemplation he did bend,</l>
+            <l>To Negromancy and much time did spend,</l>
+            <l>In casting figures, making Inchantations;</l>
+            <l>With all the wicked helps of Conjurations,</l>
+            <l>Leaving those studies which are most divine,</l>
+            <l>And to these hellish Arts he did incline.</l>
+            <l>I therefore here have drawn his life, that you</l>
+            <l>May learn such wicked courses to eschew;</l>
+            <l>That we thus seeing him ruled by the Devil,</l>
+            <l>May pray to be deliver'd from all such evil.</l>
+         </div>
+         <div n="2" type="chapter">
+            <head>CHAP. II.</head>
+            <argument>
+               <l>How Doctor <hi>Faustus</hi> conjur'd up</l>
+               <l>from out a Globe of fire,</l>
+               <l>The spirit <hi>Mephostophiles,</hi>
+               </l>
+               <l>that came like to a Fryer.</l>
+            </argument>
+            <lg>
+               <l>NOw <hi>Faustus</hi> purposing alone to try,</l>
+               <l>The power of this his Magick mistery,</l>
+               <l>He did repair unto a little Wood,</l>
+               <l>And not far off from <hi>Wittenberg</hi> it stood;</l>
+               <l>Where he did make a circle with his wand,</l>
+               <l>And thus with charms his spirit did command▪</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Mephostophiles <hi>I say,</hi>
+                  </hi>
+               </l>
+               <l>
+                  <hi>quickly rise and come away:</hi>
+               </l>
+               <l>
+                  <hi>By <hi>Lucifer</hi> I charge thee here,</hi>
+               </l>
+               <l>
+                  <hi>that thou forthwith do appear.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb facs="tcp:206949:6"/>
+               <l>With this a murmure in the wood was heard,</l>
+               <l>That Doctor <hi>Faustus</hi> grew himself afeard;</l>
+               <l>The wood with lightning seemed on a flame,</l>
+               <l>And loudest thunder, terror did proclaim:</l>
+               <l>Till Doctor <hi>Faustus</hi> in his Magick Robe</l>
+               <l>Looking about him, spy d a fiery Globe:</l>
+               <l>And at the last, from this same Globe of fire,</l>
+               <l>The spirit came in likeness of a Fryer;</l>
+               <l>Who lightly round about the circle ran,</l>
+               <l>And thus to speak to <hi>Faustus</hi> he began:</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Faustus <hi>(saies he) I now am come,</hi>
+                  </hi>
+               </l>
+               <l>
+                  <hi>Speak thy will, and it is done.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>When <hi>Mephostophiles</hi> did thus kindly greet him,</l>
+               <l>Then Doctor <hi>Faustus</hi> bid the Spirit meet him</l>
+               <l>The next day at his house; the spirit did cōsent,</l>
+               <l>And back again then Doctor <hi>Faustus</hi> went.</l>
+            </lg>
+         </div>
+         <div n="3" type="chapter">
+            <head>CHAP. III.</head>
+            <argument>
+               <l>How Doctor <hi>Faustus</hi> made</l>
+               <l>a Contract firm, not good,</l>
+               <l>To serve the Devil, which</l>
+               <l>he writ with his own blood.</l>
+            </argument>
+            <l>THe time appointed, in a blustring day,</l>
+            <l>The spirit came to him, and thus did say:</l>
+            <l>I <hi>Mephostophiles</hi> am ready now,</l>
+            <l>And thus to be your Vassal I do vow;</l>
+            <l>Entreating you that you would let me know,</l>
+            <l>What is your pleasure that you call me so.</l>
+            <pb facs="tcp:206949:7"/>
+            <l>
+               <hi>Faustus</hi> herewith some questions did propound,</l>
+            <l>Which <hi>Mephostophiles</hi> did soon expound.</l>
+            <l>At last the matter did begin to frame,</l>
+            <l>And to these friendly articles they came:</l>
+            <l>That Doctor <hi>Faustus</hi> should a Spirit be,</l>
+            <l>Both in his outward shape and quality:</l>
+            <l>That he should be invisible to all,</l>
+            <l>And <hi>Mephostophiles</hi> ready at his call.</l>
+            <l>And whatsoever he did once command,</l>
+            <l>That he should bring it quickly to his hand:</l>
+            <l>And that he should at any time appear,</l>
+            <l>When once the voice of <hi>Faustus</hi> he did hear.</l>
+            <l>Thus <hi>Faustus</hi> did this black agreement make,</l>
+            <l>While that the Spirit did for his master take,</l>
+            <l>These sad conditions, which would even fear</l>
+            <l>A tender-hearted Christian for to hear;</l>
+            <l>That Doctor <hi>Faustus</hi> while he now did live</l>
+            <l>Himself to his Lord <hi>Lucifer</hi> should give;</l>
+            <l>And for to make the contract firm, not good,</l>
+            <l>He did agree to write it with his blood;</l>
+            <l>Which in a sawcer on the fire he set,</l>
+            <l>He in the same his wicked blood did heat:</l>
+            <l>And write therewith that he would alwayes be</l>
+            <l>A foe unto all Christianity.</l>
+            <l>These sad conditions when that you do read,</l>
+            <l>I know that it will make your heart to bleed.</l>
+            <l>Yet wretched <hi>Faustus</hi> made himself the band,</l>
+            <l>And thereunto did set his desperate hand:</l>
+            <l>And to these covenants he gave consent,</l>
+            <l>Which after (though too late) he did repent:</l>
+            <pb facs="tcp:206949:7"/>
+            <l>But being seal'd, he doth the same deliver</l>
+            <l>To <hi>Mephostophiles,</hi> to keep it ever.</l>
+            <l>Thus by degrees he added sinne, to sinne;</l>
+            <l>And now the practise he did first begin.</l>
+         </div>
+         <div n="4" type="chapter">
+            <head>CHAP. IV.</head>
+            <argument>
+               <l>How <hi>Faustus</hi> first began</l>
+               <l>his cunning to assay:</l>
+               <l>And how his Spirit did</l>
+               <l>in every thing obey</l>
+            </argument>
+            <l>IT happened now that <hi>Faustus</hi> in the end</l>
+            <l>The devil with a question did offend,</l>
+            <l>Which was, that he would know how God did frame</l>
+            <l>The world &amp; all things which it doth contain.</l>
+            <l>But <hi>Lucifer</hi> not able this to tell,</l>
+            <l>Because himself from his creation fell;</l>
+            <l>Was with the Doctor very much displeas'd,</l>
+            <l>Nor could his anger quickly be appeas'd:</l>
+            <l>And therefore <hi>Lucifer</hi> to increase his fear,</l>
+            <l>In ugly shape to <hi>Faustus</hi> did appear,</l>
+            <l>With other of his black infernal rout,</l>
+            <l>Who in an antick manner danc'd about.</l>
+            <l>Hereat poor Doctor <hi>Faustus</hi> was amaz'd,</l>
+            <l>And yet upon their hideous forms he gaz'd:</l>
+            <l>Thinking those troops of fury now were come,</l>
+            <l>To fetch him thence before his glass were run,</l>
+            <l>Or ere his twenty four years did expire:</l>
+            <l>During which time the Spirit like a Fryer,</l>
+            <pb facs="tcp:206949:8"/>
+            <l>Carrying a little bell within his hand,</l>
+            <l>Was bound to be still ready at command.</l>
+            <l>But afterward when those same years did end,</l>
+            <l>Then <hi>Faustus</hi> should on <hi>Lucifer</hi> attend.</l>
+            <l>And now this fearfull suddain operation,</l>
+            <l>Did fill his heart with grief and contrition:</l>
+            <l>But when that <hi>Lucifer</hi> perceiv'd his sadness,</l>
+            <l>He laughed out for very gladness.</l>
+            <l>
+               <hi>Faustus,</hi> sayes he, I do now well perceive</l>
+            <l>That you our first agreement would deceive;</l>
+            <l>Yet I would have you know it is in vain,</l>
+            <l>For no repentance can you purge again.</l>
+            <l>Besides, you know (&amp; therwith shew'd his band)</l>
+            <l>That to these covenāts you have set your hād.</l>
+            <l>And for to make this Obligation good,</l>
+            <l>Your self hath written it with your own blood:</l>
+            <l>Be quiet then in mind and take your rest,</l>
+            <l>For thou ere long must be great <hi>Pluto's</hi> guest:</l>
+            <l>In the mean time to recreate thy leasure,</l>
+            <l>Sit down and I wil show thee some new pleasure:</l>
+            <l>So <hi>Faustus</hi> and the Devil together sate,</l>
+            <l>But still he thought his company too hot.</l>
+            <l>Then <hi>Lucifer</hi> did other Fiends command</l>
+            <l>For to appear, who straightway were at hand:</l>
+            <l>First came in <hi>Belial</hi> like to a Bear,</l>
+            <l>With flaming eyes, and shaggy rugged hair,</l>
+            <l>Then <hi>Belzebub</hi> came flying in with wings,</l>
+            <l>Whose mouth was filled with a pair of stings;</l>
+            <l>Then came <hi>Asteroth</hi> of cole black hue,</l>
+            <l>And after him a Serpents tail he drew.</l>
+            <pb facs="tcp:206949:8"/>
+            <l>Then <hi>Chanigasto</hi> lightly skipped in,</l>
+            <l>Who was attired in a Hedgehogs skin,</l>
+            <l>At last came <hi>Anobis</hi> like to a Dogge,</l>
+            <l>And in his body shaped like a Hogge:</l>
+            <l>These ugly Maskers did themselves advance;</l>
+            <l>And in strange measures did begin to dance.</l>
+            <l>And as they did their several changes make,</l>
+            <l>Their threatning forks 'gainst <hi>Faustus</hi> they did shake;</l>
+            <l>As if they meant at him to run a Tilt,</l>
+            <l>That <hi>Faustus</hi> thought his blood should then be spilt.</l>
+            <l>
+               <hi>Lucifer</hi> seeing <hi>Faustus</hi> thus dismaid,</l>
+            <l>Began to cheer him up, and thus he said:</l>
+            <l>
+               <hi>Faustus,</hi> how dost thou like this nimble sport,</l>
+            <l>For with this company thou must consort.</l>
+            <l>But <hi>Faustus</hi> sweating thought it was hot weather,</l>
+            <l>Being afraid to see them all together:</l>
+            <l>And did intreat his Devilship that he</l>
+            <l>Would send away his fearfull company:</l>
+            <l>At which great <hi>Lucifer</hi> dismiss'd them all,</l>
+            <l>Excepting seaven of the principal.</l>
+            <l>Now <hi>Faustus</hi> having gotten breath again,</l>
+            <l>Did ask for <hi>Mephostophiles</hi> by name;</l>
+            <l>Which having spoken as he did desire,</l>
+            <l>Came <hi>Mephostophiles</hi> like to a Fryer;</l>
+            <l>Then <hi>Faustus</hi> to entreat his spirit begun,</l>
+            <l>That he would teach him (as himself had done)</l>
+            <l>How to transform himself to any shape,</l>
+            <l>Either of Dog, or Lyon, Cat, or Ape.</l>
+            <l>With this great <hi>Lucifer</hi> gave him a book,</l>
+            <l>On which this <hi>Faustus</hi> did no sooner look,</l>
+            <pb facs="tcp:206949:9"/>
+            <l>But he to divers forms himself did change,</l>
+            <l>And through a hundr. various shapes did rāge.</l>
+            <l>Sometimes like to a dragon, hog, or worm,</l>
+            <l>Then to a bat he would himself transform:</l>
+            <l>But at the last being changed to a man,</l>
+            <l>To sport himself great <hi>Lucifer</hi> began,</l>
+            <l>And sent a swarm of Bees which to sting fell</l>
+            <l>Poor <hi>Faustus,</hi> that he thought himself in hell;</l>
+            <l>And to his Spirit then he cry'd for woe,</l>
+            <l>While <hi>Lucifer</hi> went laughing thence, Ho, Ho.</l>
+            <l>And having left tormented <hi>Faustus</hi> there.</l>
+            <l>As soon as he was gone, the day grew clear:</l>
+            <l>And sweetest musick was to him convay'd,</l>
+            <l>Which cheared up his heart, though much dismaid.</l>
+         </div>
+         <div n="5" type="chapter">
+            <head>CHAP. V.</head>
+            <argument>
+               <l>How Doctor <hi>Faustus</hi>
+               </l>
+               <l>was carried through the air,</l>
+               <l>That he might view the world,</l>
+               <l>the skie and planets fair.</l>
+            </argument>
+            <lg>
+               <l>AS <hi>Faustus</hi> lay one day upon his bed,</l>
+               <l>Whiles divers fancies came into his head;</l>
+               <l>He did begin to vex himself, that Art</l>
+               <l>Could not the secrets of the heavens impart:</l>
+               <l>For he had noted that their observations,</l>
+               <l>Were not confirm'd by certain demōstrations,</l>
+               <l>Iudging of things as Authors were inclin'd</l>
+               <l>But yet in knowledge all of them were blinde.</l>
+               <pb facs="tcp:206949:9"/>
+               <l>And thus while in his bed he musing lyes,</l>
+               <l>A suddain fearful wind began to rise;</l>
+               <l>That with the force thereof his house did rock,</l>
+               <l>And all the doors as if they had no lock</l>
+               <l>Did open flye; and then a voice he heard,</l>
+               <l>Which bid him rise, and not to be afeard;</l>
+               <l>And he should see the sum of his desire,</l>
+               <l>And to the starry Region should aspire,</l>
+               <l>And there the wonders of the world behold,</l>
+               <l>The earth, the sea, and all that they enfold:</l>
+               <l>And then unto the aiery region flye,</l>
+               <l>And see the Meteors both cold and drye.</l>
+               <l>
+                  <hi>Faustus</hi> at this same news was much refresht,</l>
+               <l>And thought himself in the discovery blest;</l>
+               <l>For thus the Devil at the first began,</l>
+               <l>When he with hope of knowledg tempted man.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Faustus</hi> now whom Ambition did enflame,</l>
+               <l>Did answer to the spirit back again;</l>
+               <l>The wonders of the world I fain would see,</l>
+               <l>Which if thou faithfully wilt shew to me,</l>
+               <l>I promise here that I will go with thee:</l>
+            </lg>
+            <lg>
+               <l>Which word once spoke, he did straightway view</l>
+               <l>A wagon which two fiery dragons drew:</l>
+               <l>And then the voice to him did say,</l>
+               <l>Get up with me, and let us both away.</l>
+               <l>Thus mounted on the wagon forth they went</l>
+               <l>To view the world and upper firmament;</l>
+               <l>And as they thus did travel through the air,</l>
+               <l>His <hi>Mephostophiles</hi> did to him repair;</l>
+               <pb facs="tcp:206949:10"/>
+               <l>And fitting in the Chariot hard by him,</l>
+               <l>To please his Master he this song did sing.</l>
+            </lg>
+            <q>
+               <lg>
+                  <l>COme you Spirits mount</l>
+                  <l>upon your nimble wing,</l>
+                  <l>And your chiefest notes</l>
+                  <l>be sure that you do sing:</l>
+                  <l>While my <hi>Faustus</hi> here and I,</l>
+                  <l>swiftly wander through the skie.</l>
+               </lg>
+               <lg>
+                  <l>We will travail over Mountains,</l>
+                  <l>over park, and over pale,</l>
+                  <l>Over Cities and high Steeples,</l>
+                  <l>over hill and over dale:</l>
+                  <l>While my <hi>Faustus</hi> here and I,</l>
+                  <l>swiftly wander through the skie.</l>
+               </lg>
+               <lg>
+                  <l>Then we will to sea again,</l>
+                  <l>and there laugh when we do hear</l>
+                  <l>How the Mariners exclaim</l>
+                  <l>when a suddain storm they fear:</l>
+                  <l>While my <hi>Faustus</hi> here and I,</l>
+                  <l>swiftly wander through the skie.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Faustus</hi> thou shalt now be told,</l>
+                  <l>what thy self didst most desire;</l>
+                  <l>How the Stars about are roll'd,</l>
+                  <l>some are lower, some are higher:</l>
+                  <pb facs="tcp:206949:10"/>
+                  <l>All this shalt thou view, while I,</l>
+                  <l>wander with thee through the skie.</l>
+               </lg>
+            </q>
+            <lg>
+               <l>THe song thus done w<seg rend="sup">ch</seg>
+                  <hi>Faustus</hi> pleased well</l>
+               <l>He did intreat his Spirit now to tell,</l>
+               <l>The several regions which they passed by;</l>
+               <l>Which <hi>Mephostophiles</hi> did not deny:</l>
+               <l>Yonder (sayes he) you see on your left hand</l>
+               <l>
+                  <hi>Muscovia, Russia,</hi> and the <hi>Saxons</hi> Land:</l>
+               <l>On the right hand, besides us here doth lye,</l>
+               <l>
+                  <hi>Europe, Asia,</hi> the mid-land Sea, with <hi>Greece</hi> and <hi>Hungary:</hi>
+               </l>
+               <l>Look yonder is the hot &amp; torrid zone,</l>
+               <l>And <hi>Charles Wain</hi> unto the sea-man known.</l>
+               <l>Yonder is <hi>Ursa Major,</hi> which is but the same</l>
+               <l>With that which we call the <hi>Charles Wayn.</hi>
+               </l>
+               <l>Thus did he point him out each constellation,</l>
+               <l>While <hi>Faustus</hi> strucken was with admiration:</l>
+               <l>And having shown him all the earth at last,</l>
+               <l>Vpon his bed again he <hi>Faustus</hi> cast;</l>
+               <l>Whereas he thought on what before he saw,</l>
+               <l>And how the stars were govern'd by their law;</l>
+               <l>And thereby to such knowledge he did clime,</l>
+               <l>That none was like to <hi>Faustus</hi> in his time.</l>
+               <l>And for Astrology he was the best:</l>
+               <l>And in his art did far excell the rest.</l>
+            </lg>
+         </div>
+         <div n="6" type="chapter">
+            <pb facs="tcp:206949:11"/>
+            <head>CHAP. VI.</head>
+            <argument>
+               <l>How Doctor <hi>Faustus</hi> would,</l>
+               <l>sometime in a pleasant vain,</l>
+               <l>Shew many rare conceits,</l>
+               <l>which did increase his fame.</l>
+            </argument>
+            <lg>
+               <l>IT chanced now that <hi>Faustus</hi> on a time</l>
+               <l>Did happen with the Emperour to dine;</l>
+               <l>Who did intreat that he his Art would shew,</l>
+               <l>That thereby he might <hi>Alexander</hi> view,</l>
+               <l>In such a shape as he did live on earth:</l>
+               <l>And furthermore, for to increase his mirth,</l>
+               <l>He did intreat him, that he would present</l>
+               <l>His Paramour which bred his hearts content.</l>
+               <l>
+                  <hi>Faustus</hi> having heard the Emperor, said no more,</l>
+               <l>But opened straight the privy chamber dore,</l>
+               <l>And straightway in full figure there came forth</l>
+               <l>Great <hi>Alexander</hi> of renowned worth:</l>
+               <l>And after him his beauteous Paramour,</l>
+               <l>Who made obeysance to the Emperour;</l>
+               <l>Who with kind salutatiō thought to greet her,</l>
+               <l>But <hi>Faustus</hi> would not suffer him to meet her:</l>
+               <l>And after through the dore by which they came</l>
+               <l>They both of them did vanish back again;</l>
+               <l>Leaving the Emperour who did commend</l>
+               <l>Great <hi>Faustus</hi> skill, and called him his friend.</l>
+               <l>But <gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ou shall hear of <hi>Faustus</hi> tricks hereafter,</l>
+               <l>W<seg rend="sup">ch</seg> cannot chose but move you unto laughter.</l>
+               <pb facs="tcp:206949:11"/>
+               <l>This being done, upon another time</l>
+               <l>When Doctor <hi>Faustus</hi> did to mirth incline:</l>
+               <l>Walking among the Courtiers he did spye,</l>
+               <l>Whereas a Knight did at a Window lye,</l>
+               <l>With his head out of the window, so that he</l>
+               <l>Was falen fast asleep, which <hi>Faustus</hi> soon did see</l>
+               <l>And fixt a pair of Harts-horns on his head</l>
+               <l>So large, <hi>Acteon</hi> nere was better spread;</l>
+               <l>But when the Knight did happen to awake,</l>
+               <l>Seeing his horns, his head began to shake;</l>
+               <l>And though be could pull in his head again,</l>
+               <l>But all his force and striving was in vain:</l>
+               <l>And he by no means could bring it to pass,</l>
+               <l>But with his horns he broke the pains of glass:</l>
+               <l>And when the Emperour beheld this fight,</l>
+               <l>He and the Courtiers laughed all outright;</l>
+               <l>Vntill that <hi>Faustus</hi> took his horns away,</l>
+               <l>With which y<seg rend="sup">e</seg> Emperor was pleas'd that day.</l>
+               <l>But not long after this same injur'd Knight,</l>
+               <l>Did purpose y<seg rend="sup">t</seg> his wrongs he thus would right,</l>
+               <l>That meeting Doctor <hi>Faustus</hi> on a plain</l>
+               <l>He purpos'd he should never goe home again;</l>
+               <l>But then the Bushes he did arm agen,</l>
+               <l>Which came upon the Knight like armed men.</l>
+               <l>Thus the Knights malice <hi>Faustus</hi> did defeat:</l>
+               <l>And all that heard it laugh d at this conceit.</l>
+            </lg>
+            <lg>
+               <l>Another time this <hi>Faustus</hi> did repair,</l>
+               <l>Like to a Horse-courser to a Country Fair:</l>
+               <pb facs="tcp:206949:12"/>
+               <l>And having pac'd his horse about a while,</l>
+               <l>A chapman came to him which made him smile,</l>
+               <l>And askt his price, which <hi>Faustus</hi> did unfold:</l>
+               <l>And so his horse for forty Dollers sold:</l>
+               <l>And charged him whatsoever did betide,</l>
+               <l>That he into the water should not ride.</l>
+               <l>But the Horse-courser wondring at his word,</l>
+               <l>As he went home did ride into a Ford;</l>
+               <l>And straight his Horse did vanish quite away,</l>
+               <l>For he no more his Horse or saddle saw,</l>
+               <l>But there was left upon a wad of Straw.</l>
+               <l>The Horse-courser went back unto his Inne,</l>
+               <l>And to inquire for <hi>Faustus</hi> did begin;</l>
+               <l>And finding him there sleeping on a bed,</l>
+               <l>He did begin to pluck him by the legg,</l>
+               <l>
+                  <hi>That he did pluck it off: then <hi>Faustus</hi> cry d</hi>
+               </l>
+               <l>With open throat, that he had murther'd him:</l>
+               <l>Whereat the Horse-courser did now begin</l>
+               <l>To ask for mercy, and away he went,</l>
+               <l>And for to lose his money was content.</l>
+            </lg>
+            <lg>
+               <l>It hapned Doctor <hi>Faustus</hi> on a day.</l>
+               <l>Met with a Clown that drove a load of Hay;</l>
+               <l>And asked him what he should give in scoffe,</l>
+               <l>That he might eat his belly full thereof:</l>
+               <l>The Clown did tell him that he should</l>
+               <l>For his 3 farthings eat even what he would.</l>
+               <l>It was agreed, and Doctor <hi>Faustus</hi> set</l>
+               <l>Himself to eat, and all his teeth did whet,</l>
+               <l>That the poor clown was sorry and did grutch</l>
+               <l>To see that <hi>Faustus</hi> did eat up so much:</l>
+               <pb facs="tcp:206949:12"/>
+               <l>For <hi>Faustus</hi> did the Country-man so blind,</l>
+               <l>He could not see the hay was left behind;</l>
+               <l>And therefore did intreat him very fair,</l>
+               <l>That <hi>Faustus</hi> would his load of hay yet spare:</l>
+               <l>Hereat <hi>Faustus</hi> laughing went away,</l>
+               <l>And afterward the Clown had all his hay.</l>
+            </lg>
+            <lg>
+               <l>Doctor <hi>Faustus</hi> coming on a time</l>
+               <l>Vnto a Tavern which did sell good wine:</l>
+               <l>He found a company of Drunkards there</l>
+               <l>Merrily drinking, and so loud they were,</l>
+               <l>That Doctor <hi>Faustus</hi> who this noise did hate,</l>
+               <l>Hearing them all thus loudly sing and prate,</l>
+               <l>At last when they their words had newly spokē</l>
+               <l>He cōjur'd them all y<seg rend="sup">t</seg> their mouths stood open;</l>
+               <l>And thus they gaping stood at one another,</l>
+               <l>Not one was able for to speak to th' other:</l>
+               <l>In this amazed manner forth they came,</l>
+               <l>And then they all did shut their mouths again.</l>
+               <l>And hereby <hi>Faustus</hi> art was much exprest,</l>
+               <l>And all the Town did laugh at this new jest.</l>
+            </lg>
+            <lg>
+               <l>Once Doctor <hi>Faustus</hi> did his friends invite,</l>
+               <l>Who Scholars were, unto a supper very light;</l>
+               <l>And afterward he did intreat each guest,</l>
+               <l>(Meaning thereby to break a merry jest)</l>
+               <l>That they would take y<seg rend="sup">e</seg> pains with him to go,</l>
+               <l>To a Wine-celler which he would them show:</l>
+               <l>They all consented, and not long they staid,</l>
+               <l>To the Bishops celler they were all convay'd:</l>
+               <pb facs="tcp:206949:13"/>
+               <l>There <hi>Faustus</hi> and the Scholars merry were;</l>
+               <l>But now the Butler put them in a fear;</l>
+               <l>Who coming hastily to draw some drink,</l>
+               <l>And seeing them, did straightway think</l>
+               <l>They had been theeves, and so aloud did cry</l>
+               <l>For help, but <hi>Faustus</hi> still'd him by and by;</l>
+               <l>By the hair of the head he carry'd him,</l>
+               <l>Who now with fear to tremble did begin,</l>
+               <l>Vntill unto a lopped tree he came,</l>
+               <l>And there he left the Butler on the same;</l>
+               <l>And all the night which was both sharp &amp; cold,</l>
+               <l>With both his hands he by the tree did hold;</l>
+               <l>Till in the morning, when he did espy</l>
+               <l>The Shepherds, he aloud to them did cry;</l>
+               <l>Who wondred much what mad mā that should be</l>
+               <l>Who had thus climbed on so high a tree:</l>
+               <l>But when this news unto the Bishop came,</l>
+               <l>He did himself go out to see the same;</l>
+               <l>And asked him how y<seg rend="sup">t</seg> he was brought thither,</l>
+               <l>The butler that with cold did quake &amp; quiver,</l>
+               <l>Did answer, that he certain theeves had found,</l>
+               <l>In his Wine-celler who were drinking round;</l>
+               <l>And by the hair of the head they did him bring,</l>
+               <l>And left him in that case they found him in:</l>
+               <l>What ere they were (sayes he) I do not know,</l>
+               <l>If they were devils, they like men did show.</l>
+            </lg>
+            <lg>
+               <l>But 'tis not here my purpose to recite,</l>
+               <l>Or all the merry tricks of <hi>Faustus</hi> write;</l>
+               <pb facs="tcp:206949:13"/>
+               <l>Yet some of them I have related here:</l>
+               <l>But now his 24 years drew near.</l>
+               <l>And though in pleasure he had spent his time,</l>
+               <l>The number of his years did now decline;</l>
+               <l>And all the Spirits had a great desire,</l>
+               <l>To see when <hi>Faustus</hi> bond would once expire;</l>
+               <l>Since he was bound by y<seg rend="sup">e</seg> same bloody scroul,</l>
+               <l>At twenty four years end to give his soul</l>
+               <l>To <hi>Lucifer:</hi> the time now drawing nigh,</l>
+               <l>You must expect to hear his Tragedy.</l>
+            </lg>
+         </div>
+         <div n="7" type="chapter">
+            <head>CHAP. VII.</head>
+            <argument>
+               <l>How <hi>Faustus,</hi> when his time grew nigh,</l>
+               <l>did make great lamentation;</l>
+               <l>And to his fellow Students made</l>
+               <l>his Funeral Oration.</l>
+            </argument>
+            <lg>
+               <l>THe glass of <hi>Faustus</hi> time being almost run,</l>
+               <l>Having but one month of his time to come;</l>
+               <l>He drew into a very pensive mood,</l>
+               <l>And now his fault he plainly understood:</l>
+               <l>And now began to curse that wretched time,</l>
+               <l>When he to study Magick did incline.</l>
+               <l>To hope for mercy now it was too late,</l>
+               <l>Which made him to deplore his wicked state;</l>
+               <l>And his accusing conscience now did tell,</l>
+               <l>There was no way for him but down to hell.</l>
+               <l>And thus in waiting he his time did spend,</l>
+               <l>That little time which drew unto an end.</l>
+               <pb facs="tcp:206949:14"/>
+               <l>Now on the pains of Hell he first did think,</l>
+               <l>The racks and tortures, chains &amp; filthy stink,</l>
+               <l>How <hi>Proserpine</hi> would surely laugh to see</l>
+               <l>His soul tormented in this misery.</l>
+               <l>Then he bethought him on the whips of steel,</l>
+               <l>Which he did know his body there should feel,</l>
+               <l>The more he thought, his thoughts increas d his pain</l>
+               <l>W<seg rend="sup">ch</seg> made him stil unto himself cōplain.</l>
+               <l>While thus he spent his time in grief &amp; fear,</l>
+               <l>His <hi>Mephostophiles</hi> did to him appear;</l>
+               <l>And told him y<seg rend="sup">t</seg> his years were now expir'd,</l>
+               <l>And that his Master <hi>Lucifer</hi> desir'd</l>
+               <l>He would prepare himself and make an end,</l>
+               <l>For that his Master shortly did intend,</l>
+               <l>On such a night, to fetch him down to hell,</l>
+               <l>That with y<seg rend="sup">e</seg> infernal spirits he might dwell.</l>
+               <l>When <hi>Faustus</hi> had heard this, he grew so sad,</l>
+               <l>That with his sorrow he grew almost mad;</l>
+               <l>He tumbled on his bed, all rest he did despise,</l>
+               <l>No quiet flumber ever clos'd his eyes.</l>
+               <l>But he was still tormented in his mind,</l>
+               <l>Sin went before, and torture came behind:</l>
+               <l>Yet so it was, that on that very day,</l>
+               <l>On which y<seg rend="sup">e</seg> devil should fetch him quite away,</l>
+               <l>He sent unto his frends intreating for his sake</l>
+               <l>That of his Banquet they would all partake:</l>
+               <l>As merry Banquet is, it soon befell,</l>
+               <l>As afterward in due place I will tell.</l>
+               <l>The Students being come, he made them all</l>
+               <l>As welcō as he could, when he himself did fall</l>
+               <pb facs="tcp:206949:14"/>
+               <l>Into a sudden dump, nor could he be</l>
+               <l>Merry in their so beloved company.</l>
+               <l>So calling them into another room,</l>
+               <l>He did unfold to them his fearfull doom.</l>
+            </lg>
+            <q>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="oration">
+                        <head>Doctor <hi>Faustus</hi> his Oration to his Friends and fellow Students.</head>
+                        <lg>
+                           <l>MY friends I must begin my sad Oration,</l>
+                           <l>With a confession of my Conjuration.</l>
+                           <l>Since all of you do know my first beginning,</l>
+                           <l>And how I grew still worse &amp; worse in sinning,</l>
+                           <l>And unto Magick arts I was so bent,</l>
+                           <l>I sought all wayes to further my intent.</l>
+                           <l>And leaving better studies, did apply</l>
+                           <l>My self unto that hellish mistery.</l>
+                           <l>Thus did I live twenty four years and more,</l>
+                           <l>Whose sad expiring I must now deplore:</l>
+                           <l>For so it is, to purchase my content,</l>
+                           <l>I to a heavy bargain did consent:</l>
+                           <l>Which was, when 24 years once did end,</l>
+                           <l>(Which time in conjuration I did spend)</l>
+                           <l>The devil should have my body and my soul,</l>
+                           <l>And did confirm it by a bloody scroul;</l>
+                           <l>And now the dismal term of years is done,</l>
+                           <l>And night beginning, my hour-glass is run,</l>
+                           <l>This night I look that he for me should send,</l>
+                           <l>And this my life will have a fearfull end:</l>
+                           <l>And now (my friends) this banquet I did make</l>
+                           <l>That I of you my last farewell might take;</l>
+                           <pb facs="tcp:206949:15"/>
+                           <l>Desiring pardon where I have offended,</l>
+                           <l>Since my last act of life cannot be mended;</l>
+                           <l>And for those practises which I have wrought</l>
+                           <l>By conjuration, and thereby have brought</l>
+                           <l>My heavy soul to grief and sad despair,</l>
+                           <l>My life is written in a writing fair,</l>
+                           <l>Which lies within my study: so that you</l>
+                           <l>May learn thereby such courses to eschew.</l>
+                           <l>And if that I do you my counsell give,</l>
+                           <l>And use that little time I have to live,</l>
+                           <l>Be sure that you forsake all conjuration,</l>
+                           <l>And pray to be delivered from temptarion:</l>
+                           <l>And let my death a warning be to all,</l>
+                           <l>Since by desire of knowledge I did fall:</l>
+                           <l>For now to give my speech a sad conclusion,</l>
+                           <l>This night I must expect my own confusion:</l>
+                           <l>And yet my loving friends I do request</l>
+                           <l>That you will go to bed and take your rest;</l>
+                           <l>Let nothing trouble you, nor do not fear</l>
+                           <l>If any tumbling noise you chance to hear,</l>
+                           <l>Be sure you do not rise out of your bed:</l>
+                           <l>But when that I to <hi>Pluto's</hi> court am fled,</l>
+                           <l>If that you finde my body the next day,</l>
+                           <l>Be sure that you to earth do it convey:</l>
+                           <l>And so my friends I wish you all good rest,</l>
+                           <l>Pray go to bed, my soul is much opprest.</l>
+                        </lg>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <lg>
+               <l>When as his friends had heard what he did say,</l>
+               <l>They counsel'd him that he to God should pray:</l>
+               <l>But <hi>Faustus</hi> felt the weight so of his sin,</l>
+               <l>That how to pray he knew not to begin:</l>
+               <pb facs="tcp:206949:15"/>
+               <l>At last the Students having pray d, did weep,</l>
+               <l>And after went to bed, but could not sleep:</l>
+               <l>For <hi>Faustus</hi> in the Hall did stay alone,</l>
+               <l>Where they might hear how he did sigh and groan,</l>
+               <l>And so with wakefull eyes they did attend,</l>
+               <l>Expecting still to hear his fearfull end:</l>
+               <l>At last between the hours of twelve &amp; one,</l>
+               <l>A wind did rise, the like was never known,</l>
+               <l>It was so violent: which when they once did hear</l>
+               <l>The Host &amp; Students both began to fear.</l>
+               <l>For Doctor <hi>Faustus</hi> in the Hall did lye,</l>
+               <l>When they might hear his fearfull Tragedy:</l>
+               <l>For now the Hall and upper rooms did shake,</l>
+               <l>And they did hear a hissing like a Snake;</l>
+               <l>And then the Hall door fiercely did flye open,</l>
+               <l>And <hi>Faustus</hi> Murther cry'd, which being spoken,</l>
+               <l>They heard no more; so that y<seg rend="sup">e</seg> Scholars said,</l>
+               <l>Now Doctor <hi>Faustus</hi> is to hell convey'd.</l>
+               <l>The next day, when they came into y<seg rend="sup">e</seg> Hall,</l>
+               <l>They might bebold a fearfull funerall:</l>
+               <l>His blood &amp; brains were sprinkled on y<seg rend="sup">e</seg> ground</l>
+               <l>And such a sight as might the sight confound;</l>
+               <l>Here lay his teeth, and there his eyes did lye,</l>
+               <l>A spectacle of hellish cruelty;</l>
+               <l>Which when his friends beheld they all did mourn,</l>
+               <l>And found his body on the dunghill torn;</l>
+               <l>To which his friends did christian burial give,</l>
+               <l>Although himself did like a Devil live.</l>
+               <l>Thus I this story of his life have penn'd,</l>
+               <l>That we may see his life, and hate his end.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
